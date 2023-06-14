@@ -1,0 +1,382 @@
+html, body {
+    background-color: #E5E8ED;
+    height: 100%;
+    width: 100%;
+}
+
+.page{
+    min-height: 100%;
+}
+
+/*HEADER START*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 4px;
+    background-color: #1563CE;
+    
+    flex-direction: row;
+        }
+
+    .header li, a {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 4px;
+        padding: 10px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+
+
+    .nav_links{
+        list-style: none;
+        margin-right: 4px;
+    }
+    
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 1px;
+    }
+    
+    .nav_links li a{
+        transition: all 0.3s ease 0s;
+        margin-right: 30px;
+    }
+    
+    .nav_links li a:hover {
+         color:navy
+    }
+
+    .logo1 {
+        cursor: pointer;
+        margin-left: 2px;
+        margin-bottom: -4px;
+        }
+
+    .logo2 {
+        cursor: pointer;
+        margin-left: 0px;
+        }
+/*HEADER END*/
+
+
+
+/*MAIN START*/
+
+.main{
+        padding: 0px;
+        flex: 1 1 auto;
+        display: flex;
+        color: #FFFFFF;
+        flex-direction: column;
+}
+
+.main_pic{
+   width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.teachers{
+    align-items: center;
+    margin-bottom: 50px;    
+}
+
+.teachers2{
+    align-items: center;
+    margin-bottom: 80px;    
+}
+
+
+h4{
+    font-family: 'Noto Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+    color: #000000;
+    text-align: 30px;
+}
+
+.text-block {
+margin-left:150px;
+}
+
+.text-block2 {
+margin-left:300px;
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+
+.text-block3 {
+margin-left:150px;
+}
+
+.text-block3 a{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 4px;
+        padding: 10px;
+        color: #000000;
+        text-decoration: underline;
+}
+
+.text-block4 {
+margin-left:-250px;
+}
+
+.text-block4 a{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 4px;
+        padding: 10px;
+        color: #000000;
+        text-decoration: underline;
+}
+
+.text-block5 {
+    margin-left:350px;
+}
+
+
+bg{
+        box-sizing: border-box;
+        padding: 0px 0px;
+        background-color: #FFFFFF;
+}
+h5{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #000000;
+    text-align: 40px;
+    margin-top: 50px;
+}
+
+h6{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+    text-align: 40px;
+    margin-top: 50px;
+}
+
+
+p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    width: 75%;
+    margin-bottom: 30px;
+    margin: 0rem;
+}
+
+
+/*BUTTON START*/
+.container{
+    width: 100%;
+    height: 100 vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: 'Noto Sans';
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border:1px solid var(--bs-btn-border-color);
+    border-radius: 5px;
+    background-color: #1563CE;
+    transition: color .15s
+
+}          
+/*BUTTON END*/
+
+.container2{
+    width: 100%;
+    height: 100 vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+    margin-left: -350px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+
+.container3{
+    width: 100%;
+    height: 100 vh;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: -30px;
+    margin-bottom: 1rem;
+    padding-bottom: 0px;
+}
+
+.container4{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: 280px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+}
+
+.container5{
+    display: flex;
+    justify-content:space-between;
+    align-items: left;
+    margin-left: 0px;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    
+}
+
+
+.ul2 li{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    padding-bottom: 1rem;
+}
+
+.ul2 {
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
+
+
+/*MAIN END*/
+
+
+
+/*FOOTER START*/
+
+    footer{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0px 0px;
+        background-color: #444143;
+        text-align: center;
+        }
+
+    .footer{
+        padding: 0px;
+        }
+
+.columns {
+  display: flex;
+    flex-direction: row; 
+    align-items: left; 
+    justify-content: flex-end;
+    width: 85%;
+}
+
+.column {
+  width: 17.5%;
+  display: inline-block;
+  vertical-align: top;
+} 
+
+.column a, li{ 
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    color: #CBCACA;    
+}
+
+/*ССЫЛКИ В ФУТЕРЕ*/
+    .nav_links2{
+        list-style: none;
+        margin-right: 24px;
+        text-align: left;
+        }
+
+    .nav_links2 li {
+            display: inline-block;
+            padding: 0px 0px;
+        
+            }
+
+h2 {
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 15px;
+        padding-top: 10px;
+        color:#CBCACA;
+        text-decoration: none;
+}
+
+.column h2, .column ul {
+    display: inline-block;
+}
+
+
+hr{
+    color:#CBCACA;
+    width: 100%;
+}
+
+.footer_icons{
+    display: flex;
+    display: inline-block;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: flex-end;
+    
+}
+
+.logo_vk, .logo_tg, .logo_yt {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-right: 5px;
+        }
+
+.footer_icons a{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin: 0px;
+    padding: 0px;
+    color: #FFFFFF;
+}
+
+
